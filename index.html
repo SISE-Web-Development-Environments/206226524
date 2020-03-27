@@ -247,8 +247,14 @@
         </label>
         <br/>
         <br/>
-        <h3 style="font-weight: bold;text-align: center">please choose an emoji from the following and paste it in the message</h3>
-        &#128523 &#128525 &#129313 &#128519
+        <h3 style="font-weight: bold;text-align: center; font-size: 15px">Please choose an emoji from the following and click on it,<br> you can add
+            as much
+            emojis as
+        you would like</h3>
+        <a id="emoji1" onclick="addEmojiToText(this)" style="text-align: center; cursor: pointer; font-size: 20px">&#128523</a>
+        <a id="emoji2" onclick="addEmojiToText(this)" style="text-align: center; cursor: pointer; font-size: 20px">&#128525</a>
+        <a id="emoji3" onclick="addEmojiToText(this)" style="text-align: center; cursor: pointer; font-size: 20px">&#129313</a>
+        <a id="emoji4" onclick="addEmojiToText(this)" style="text-align: center; cursor: pointer; font-size: 20px">&#128519</a>
         <br/>
         <br/>
         <input type="submit" style="height:30px; width: 200px" value="Send" onclick="sendMail()">
@@ -347,6 +353,9 @@
     function resetField() {
         document.getElementById("mailMessage").value = "";
         document.getElementById("subjectMail").value = "";
+    }
+    function addEmojiToText(param) {
+        document.getElementById("mailMessage").value += param.innerHTML;
     }
 </script>
 </body>
