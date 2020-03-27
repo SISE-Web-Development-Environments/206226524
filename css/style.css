@@ -1,0 +1,218 @@
+* {
+	font-family: montserrat;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+h1{
+	padding: 20px;
+	text-align: center;
+	background: rgba(49, 204, 118, 0.4);
+	color: #000000;
+	font-size: 40px;
+}
+
+.DesignMenu {
+	position: fixed;
+	width: 100%;
+	background-color: #29ba6d;
+	overflow: auto;
+	z-index: 950;
+}
+
+.DesignMenu a:not(#logo) {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 12%; /* Four links of equal widths */
+	text-align: center;
+}
+
+.DesignMenu  img {
+	float: left;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-right: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 5%; /* Four links of equal widths */
+	text-align: center;
+}
+
+.DesignMenu a:hover {
+	background-color: #1e8b51;
+}
+
+@media screen and (max-width: 500px) {
+	.DesignMenu a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 800px;
+	position: relative;
+	margin: auto;
+	z-index: 900;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	color: #29ba6d;
+	background-color: #cfcfcf;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	background-color: #cfcfcf;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+}
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+	position: fixed;
+	bottom: 30px;
+	float: right;
+	right: 10.5%;
+	left: 95.25%;
+	max-width: 50px;
+	width: 100%;
+	font-size: 12px;
+	padding: 1px;
+	border-radius: 4px;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+
+}
+
+table{
+	margin: auto;
+	width: calc(100% - 40px);
+}
+table, td, th {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 15px;
+}
+
+#answer2{
+	margin: auto;
+	width: 80%;
+}
+
+body {
+	background: repeating-linear-gradient(-45deg, rgba(30, 211, 94, 0.09), rgba(97, 205, 242, 0.16), rgba(202, 119, 210, 0.05), rgba(55, 97, 233, 0.17));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
