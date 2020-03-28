@@ -10,6 +10,6 @@ Thank you and enjoy.
 
 Itai Dagan.
 
-206226524.
+  206226524.
 
 https://sise-web-development-environments.github.io/assignment1-206226524
