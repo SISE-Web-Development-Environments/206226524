@@ -1,12 +1,12 @@
 ## Introduction
-Hi, 
+Hi,
 
-Welcome to the first website I've built by myself.
+Welcome to the first website I've ever built by myself. :computer:
 
 I really hope you would like my website and his design.
 
 
-Thank you and enjoy.
+Thank you and enjoy :blush:
 
 ## Details
 
