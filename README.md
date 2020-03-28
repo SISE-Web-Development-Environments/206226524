@@ -7,13 +7,13 @@ I really hope you would like my website and his design.
 
 Thank you and enjoy.
 
-# Details
+## Details
 
-## Name
+### Name
 Itai Dagan
 
-## ID
+### ID
 206226524
 
-## Link to the website
+### Link to the website
 https://sise-web-development-environments.github.io/assignment1-206226524
