@@ -19,4 +19,4 @@ Itai Dagan
 206226524
 
 #### Link to the website
-https://sise-web-development-environments.github.io/assignment1-206226524
+https://sise-web-development-environments.github.io/206226524
