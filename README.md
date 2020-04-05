@@ -5,6 +5,8 @@ Welcome to the first website I've ever built by myself. :computer:
 
 I really hope you would like my website and his design.
 
+I made this website for my mother which is now at home due to the COVID-19.
+
 
 Thank you and enjoy :blush:
 
